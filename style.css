@@ -1,0 +1,83 @@
+li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+}
+h1 {
+font-family: 'Proza Libre', sans-serif;
+color:#596e79; }
+
+h3{
+  color:#596e79;
+}
+
+body {
+  color:black;
+  background-color: #f0ece3;
+  font-family:  'Open Sans', sans-serif;
+  font-weight: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+.image{
+  width: 100px;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 480px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
+.container{
+  width: 700px;
+  margin: 20px auto;
+  }
+
+.card{
+  padding: 20px;
+  border-radius: 4px;
+  background-color:white;
+  text-align: center;
+  margin: 50px;
+  box-shadow: 0px 4px 10px;
+}
+
+#main-button {
+  color: white;
+  padding:10px;
+  border-radius: 4px;
+  background-color: #6B72E1;
+  margin-bottom: 50px;
+}
